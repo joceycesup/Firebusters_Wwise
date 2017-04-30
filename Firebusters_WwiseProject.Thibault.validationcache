@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="75">
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2837561358" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="2837941380" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="2838921436" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="2838891434" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="2838031385" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3578498221" DateHigh="30579881"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2837961381" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Effects\Default Work Unit.wwu" DateLow="2837811372" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Effects\Factory Effects.wwu" DateLow="3582608456" DateHigh="30579881"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Events\Default Work Unit.wwu" DateLow="2837601360" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Firebusters_WwiseProject.wproj" DateLow="2837471353" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="2837781371" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2837911378" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2837521356" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="2838011384" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="2838051386" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Presets\Default Work Unit.wwu" DateLow="2837841374" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Queries\Default Work Unit.wwu" DateLow="2837891377" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Queries\Factory Queries.wwu" DateLow="3577228148" DateHigh="30579881"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="2837751369" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2837861375" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\States\Default Work Unit.wwu" DateLow="2837711367" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Switches\Default Work Unit.wwu" DateLow="2837671364" DateHigh="30580089"/>
+	<ValidationCacheItem File="C:\Users\Thibault\Documents\Firebusters\Firebusters_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="2837931379" DateHigh="30580089"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="4254952704" DateHigh="30589376"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Attenuations\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Audio Devices\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="4154515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Effects\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Effects\Factory Auro Headphone.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Effects\Factory Effects.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Effects\Factory iZotope Delay.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Effects\Factory iZotope Dynamics.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Effects\Factory iZotope Filters.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Effects\Factory McDSP Effects.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Events\Default Work Unit.wwu" DateLow="4254952704" DateHigh="30589376"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Firebusters_WwiseProject.Thibault.wsettings" DateLow="1619399772" DateHigh="30589389"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Firebusters_WwiseProject.wproj" DateLow="4154515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="4154515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="4154515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="4254952704" DateHigh="30589376"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Modulators\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Presets\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Queries\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Queries\Factory Queries.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="4254952704" DateHigh="30589376"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\States\Default Work Unit.wwu" DateLow="4154515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Switches\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_Wwise\Triggers\Default Work Unit.wwu" DateLow="4174515712" DateHigh="30587528"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3621844982" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3621864983" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3621894985" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="3621914986" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="3621944987" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3621964989" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3621984990" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Effects\Default Work Unit.wwu" DateLow="3622014991" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Effects\Factory Effects.wwu" DateLow="3622044993" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Events\Default Work Unit.wwu" DateLow="3622064994" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Firebusters_WwiseProject.wproj" DateLow="3622124998" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="3622154999" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3622175001" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3622195002" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="3622225003" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="3622245005" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Presets\Default Work Unit.wwu" DateLow="3622275006" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Queries\Default Work Unit.wwu" DateLow="3622295007" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Queries\Factory Queries.wwu" DateLow="3622315009" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3622335010" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3622365011" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\States\Default Work Unit.wwu" DateLow="3622385013" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3622415014" DateHigh="30580151"/>
+	<ValidationCacheItem File="D:\Documents\Programmation\Unity\5.5.1\Firebusters_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="3622435015" DateHigh="30580151"/>
+</ValidationCache>
