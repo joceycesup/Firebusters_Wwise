@@ -14,17 +14,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="test" ID="{233BEC4C-8BC5-403C-9C20-6539584BFEE3}">
-					<ChildrenList>
-						<Action Name="Play" ID="{3C0622FE-5392-495A-BA5D-66DB2E077160}" ShortID="108052068" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{AAD72A66-E29C-4881-8501-C6B11DF6FF03}" Global="false">
-									<ObjectRef Name="Faible" ID="{442236B2-1798-4A8F-9071-21CE03C76325}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Start_Extincteur" ID="{E9E5F219-EA62-468B-AA3F-77E7AF3D43DE}">
 					<ChildrenList>
 						<Action Name="Play" ID="{0F74EAFE-D482-46D2-B756-8F77B8332AF7}" ShortID="1015928838" Type="Play" Scope="One" Global="false">
@@ -54,7 +43,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_chariot_hit" ID="{7C8D4EE0-4269-4B73-A864-A362DCB35B7F}">
+				<Event Name="Play_axe_chariot_hit" ID="{7C8D4EE0-4269-4B73-A864-A362DCB35B7F}">
 					<ChildrenList>
 						<Action Name="Play" ID="{7AE34BE3-FA64-4D35-AA8C-433FF6000461}" ShortID="179738158" Type="Play" Scope="One" Global="false">
 							<ElementList>
@@ -65,7 +54,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_wood_hit" ID="{20BCF50C-23E3-424F-B371-E9656548A207}">
+				<Event Name="Play_axe_wood_hit" ID="{20BCF50C-23E3-424F-B371-E9656548A207}">
 					<ChildrenList>
 						<Action Name="Play" ID="{CF8AFC71-AB42-45A1-AFF4-D0DAD3212599}" ShortID="41730869" Type="Play" Scope="One" Global="false">
 							<ElementList>
@@ -109,7 +98,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_mailbox_hit" ID="{521FB6E0-5124-40E1-947E-11A27D257A18}">
+				<Event Name="Play_axe_mailbox_hit" ID="{521FB6E0-5124-40E1-947E-11A27D257A18}">
 					<ChildrenList>
 						<Action Name="Play" ID="{38F85343-2DC6-4936-B04F-18B4A76C9DC8}" ShortID="61892230" Type="Play" Scope="One" Global="false">
 							<ElementList>

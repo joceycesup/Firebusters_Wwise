@@ -6,15 +6,15 @@
 				<SoundcasterSession Name="Main" ID="{736CC827-DB36-407A-AC44-0267B19A829C}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_chariot_hit" ID="{7C8D4EE0-4269-4B73-A864-A362DCB35B7F}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<ObjectRef Name="Play_axe_chariot_hit" ID="{7C8D4EE0-4269-4B73-A864-A362DCB35B7F}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_wood_hit" ID="{20BCF50C-23E3-424F-B371-E9656548A207}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<ObjectRef Name="Play_axe_wood_hit" ID="{20BCF50C-23E3-424F-B371-E9656548A207}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_mailbox_hit" ID="{521FB6E0-5124-40E1-947E-11A27D257A18}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<ObjectRef Name="Play_axe_mailbox_hit" ID="{521FB6E0-5124-40E1-947E-11A27D257A18}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
