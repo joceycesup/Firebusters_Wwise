@@ -20,8 +20,8 @@
 	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="2006331365" DateHigh="30589400"/>
 	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="2006371387" DateHigh="30589400"/>
 	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Effects\Factory McDSP Effects.wwu" DateLow="2006066173" DateHigh="30589400"/>
-	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Events\Default Work Unit.wwu" DateLow="2006421411" DateHigh="30589400"/>
-	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Firebusters_WwiseProject.user.wsettings" DateLow="2006626563" DateHigh="30589400"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Events\Default Work Unit.wwu" DateLow="4042391327" DateHigh="30589400"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Firebusters_WwiseProject.user.wsettings" DateLow="1306815228" DateHigh="30589736"/>
 	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Firebusters_WwiseProject.wproj" DateLow="2006741791" DateHigh="30589400"/>
 	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="2007494351" DateHigh="30589400"/>
 	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="2007574405" DateHigh="30589400"/>
@@ -33,7 +33,7 @@
 	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Queries\Default Work Unit.wwu" DateLow="2074798748" DateHigh="30589400"/>
 	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Queries\Factory Queries.wwu" DateLow="2074843781" DateHigh="30589400"/>
 	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="2074968861" DateHigh="30589400"/>
-	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2075018890" DateHigh="30589400"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="4042186189" DateHigh="30589400"/>
 	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\States\Default Work Unit.wwu" DateLow="2075123962" DateHigh="30589400"/>
 	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Switches\Default Work Unit.wwu" DateLow="2075179001" DateHigh="30589400"/>
 	<ValidationCacheItem File="C:\Users\user\Documents\WwiseProjects\Firebusters_Wwise\Triggers\Default Work Unit.wwu" DateLow="2075219041" DateHigh="30589400"/>
