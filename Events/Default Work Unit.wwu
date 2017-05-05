@@ -131,6 +131,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Fire" ID="{585AB50A-410B-499F-9258-E6BD2D773C9C}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{786555BD-DE52-4D82-B79F-681778A7998D}" ShortID="1008586345" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{8A50031A-656F-4E9B-931B-04E8CC206C72}" Global="false">
+									<ObjectRef Name="Fire" ID="{70BBA7E7-CDDC-4B7F-B6BE-29CE489F20D5}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
