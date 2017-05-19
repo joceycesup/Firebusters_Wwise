@@ -22,11 +22,11 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Music" ID="{8F620E46-8ECF-4993-B2FA-48724BE9F2A9}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<ObjectRef Name="P1_IsMarius" ID="{4ABE3A7B-8016-46EA-9879-F239C4AD2FB6}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="P1_is_Louis" ID="{A2DB3662-8DFF-4FCA-8698-BA9D620E22F8}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<ObjectRef Name="Play_Music" ID="{8F620E46-8ECF-4993-B2FA-48724BE9F2A9}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
@@ -34,11 +34,11 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Fire" ID="{B03666E3-ED32-477A-A126-DFD1D1E3A594}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<ObjectRef Name="P1_IsLouis" ID="{7D5D19D4-2DA8-4970-8B28-B4681C358E29}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="P1_is_Marius" ID="{B6FE7377-FC5E-4D5D-8BCD-084807335215}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<ObjectRef Name="Play_Fire" ID="{B03666E3-ED32-477A-A126-DFD1D1E3A594}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
@@ -58,7 +58,7 @@
 							<Position X="3" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Marionnette_casserole_hit" ID="{5E257313-C602-4E86-83DB-7E5538F329F6}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<ObjectRef Name="Play_Marionnette_hit_casserole" ID="{8BC6523A-97FC-472E-9C2B-D2CEF886D0DE}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="3" Y="4"/>
 						</Module>
 					</ModuleList>
@@ -68,24 +68,8 @@
 							<Value>6</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="FireCount" ID="{2B1229CB-818D-42F1-9E25-BBD8E274D523}"/>
-							<Value>1.9</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SFX_Option" ID="{C41971D8-A7A5-43D3-8825-48EA78C0B35D}"/>
-							<Value>100</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="PlayerPanning" ID="{587F32A6-E8F5-4435-88BB-24F088D8FCEA}"/>
-							<Value>1</Value>
-						</RTPCValue>
-						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
 							<Value>6</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="Music_Option" ID="{88C6D976-523C-4485-A4C7-83E3C319B2EA}"/>
-							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
@@ -109,11 +93,19 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Velocite" ID="{71432DE0-FBFB-49C3-BC34-D1E9DE6AB83B}"/>
-							<Value>0.32</Value>
+							<Value>0.55</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerSelectionPanning" ID="{CDBBB8B4-8902-49D3-8388-E041B179AB69}"/>
+							<Value>8.56077030609528E-316</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
 							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Fire_Count" ID="{1EA6E065-1FA0-4CA7-B25D-D7E8FA2F6D7C}"/>
+							<Value>9.77973568281938</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>

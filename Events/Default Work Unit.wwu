@@ -3,6 +3,17 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}" PersistMode="Standalone">
 			<ChildrenList>
+				<Event Name="Play_Marionnette_Autohit" ID="{3E0B55C2-35C3-47AB-849C-019F91BA0606}">
+					<ChildrenList>
+						<Action Name="Play" ID="{61E803D2-10BE-4CA7-BEF3-634AE0B36279}" ShortID="776581497" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{65AF1521-EA3E-4964-97A8-AAC1F80545D3}" Global="false">
+									<ObjectRef Name="Marionnette_Autohit" ID="{F4E7159E-78C8-4637-8131-46FA075FBC34}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Start_Extincteur" ID="{E9E5F219-EA62-468B-AA3F-77E7AF3D43DE}">
 					<ChildrenList>
 						<Action Name="Play" ID="{0F74EAFE-D482-46D2-B756-8F77B8332AF7}" ShortID="1015928838" Type="Play" Scope="One" Global="false">
@@ -32,6 +43,72 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_axe_chariot_hit" ID="{7C8D4EE0-4269-4B73-A864-A362DCB35B7F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7AE34BE3-FA64-4D35-AA8C-433FF6000461}" ShortID="179738158" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{61B36175-224D-4F22-B914-9471F6910682}" Global="false">
+									<ObjectRef Name="chariot_hit" ID="{BACB567D-B93B-434A-A361-F1D800618254}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_axe_wood_hit" ID="{20BCF50C-23E3-424F-B371-E9656548A207}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CF8AFC71-AB42-45A1-AFF4-D0DAD3212599}" ShortID="41730869" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D6585960-4241-486D-9EAB-B2280DC7801E}" Global="false">
+									<ObjectRef Name="wood_hit" ID="{26185151-3728-41BF-B7D2-A95C318B46D6}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Marionnette_hit_ceramique" ID="{AAD2A595-FB06-4AEB-9DD4-14EE58541332}">
+					<ChildrenList>
+						<Action Name="Play" ID="{802F6B24-EFE2-4C80-815E-B88711AF88AE}" ShortID="1027779351" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B272A71C-AC44-4027-A5A4-606207F4473C}" Global="false">
+									<ObjectRef Name="Marionnette_hit_ceramique" ID="{12AE5BCE-61A0-4786-A5FE-6E2DB92C3FD7}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Marionnette_hit_bois" ID="{0B7FED79-66FE-42A5-8F89-CE8B3F6E32BA}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F970F4B4-D6ED-4F48-8E3A-9EF65DA40173}" ShortID="552062974" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BDA3B67B-B867-4F4D-AC2F-AF76F2524619}" Global="false">
+									<ObjectRef Name="Marionnette_hit_bois" ID="{91221722-337F-4411-A086-4A36A3E4EA8F}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Marionnette_hit_metal" ID="{D32CE09D-DBC0-4205-AAE7-84B611515B33}">
+					<ChildrenList>
+						<Action Name="Play" ID="{298A0DFC-4310-41CA-B85F-50D9B3FEFA8D}" ShortID="994901189" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E27C2578-F4A6-4F86-ABA5-F026952BCEB8}" Global="false">
+									<ObjectRef Name="Marionnette_hit_metal" ID="{CFC658D8-B67E-40F8-8583-0E4FDA885939}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_axe_mailbox_hit" ID="{521FB6E0-5124-40E1-947E-11A27D257A18}">
+					<ChildrenList>
+						<Action Name="Play" ID="{38F85343-2DC6-4936-B04F-18B4A76C9DC8}" ShortID="61892230" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{13C5E7BB-7B32-4F81-8488-55BD4F788BC6}" Global="false">
+									<ObjectRef Name="mailbox_hit" ID="{CA6CFB42-B72E-453E-8AA6-9FF3E27A8FDE}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Play_Music" ID="{8F620E46-8ECF-4993-B2FA-48724BE9F2A9}">
 					<ChildrenList>
 						<Action Name="Play" ID="{DAA82890-CFC1-4233-B0F0-998A77CA81E9}" ShortID="893995999" Type="Play" Scope="One" Global="false">
@@ -48,181 +125,48 @@
 						<Action Name="Play" ID="{1EBB5383-CC79-4C9E-B9AB-9B1B5BE00A0D}" ShortID="878732891" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{29026E1C-9E3C-4E30-B180-676EFE7DBC2B}" Global="false">
-									<ObjectRef Name="Fire" ID="{70BBA7E7-CDDC-4B7F-B6BE-29CE489F20D5}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+									<ObjectRef Name="Fire blend" ID="{6C9F2F2B-BD2E-4A64-AA9A-68AE4748CB0E}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
 								</Element>
 							</ElementList>
 						</Action>
 					</ChildrenList>
 				</Event>
-<<<<<<< HEAD
-				<Folder Name="P1_is" ID="{CF0C5B12-5D8F-4954-8AEF-EDB1A2F235B2}" ShortID="818866866">
+				<Event Name="P1_IsMarius" ID="{4ABE3A7B-8016-46EA-9879-F239C4AD2FB6}">
 					<ChildrenList>
-						<Event Name="P1_is_Louis" ID="{A2DB3662-8DFF-4FCA-8698-BA9D620E22F8}">
-							<ChildrenList>
-								<Action Name="Set Game Parameter" ID="{236B1D0A-541A-4329-894D-809173912243}" ShortID="25793248" Type="SetGameParameter" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{55BBE322-5E53-470E-8062-346F6948A331}" Global="false">
-											<ObjectRef Name="PlayerPanning" ID="{587F32A6-E8F5-4435-88BB-24F088D8FCEA}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="P1_is_Marius" ID="{B6FE7377-FC5E-4D5D-8BCD-084807335215}">
-							<ChildrenList>
-								<Action Name="Set Game Parameter" ID="{1AE0220A-8D50-41B6-A29C-BBE5B46B6EF6}" ShortID="213078684" Type="SetGameParameter" Scope="One" Global="false">
-									<PropertyList>
-										<Property Name="GameParameterValue" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ElementList>
-										<Element ID="{506C6223-7276-4ED4-AB48-B29407A28A59}" Global="false">
-											<ObjectRef Name="PlayerPanning" ID="{587F32A6-E8F5-4435-88BB-24F088D8FCEA}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						<Action Name="Set Game Parameter" ID="{A0597E4E-BB40-4195-8AC2-82E6F92EE7B7}" ShortID="561080581" Type="SetGameParameter" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3028362D-D3B3-460F-ADDB-D1CED39D05B2}" Global="false">
+									<ObjectRef Name="PlayerSelectionPanning" ID="{CDBBB8B4-8902-49D3-8388-E041B179AB69}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
-				</Folder>
-				<Folder Name="Axe" ID="{0EE312F2-91FF-4316-A728-F23197683B4C}" ShortID="741355845">
+				</Event>
+				<Event Name="P1_IsLouis" ID="{7D5D19D4-2DA8-4970-8B28-B4681C358E29}">
 					<ChildrenList>
-						<Event Name="Play_axe_wood_hit" ID="{20BCF50C-23E3-424F-B371-E9656548A207}">
-							<ChildrenList>
-								<Action Name="Play" ID="{CF8AFC71-AB42-45A1-AFF4-D0DAD3212599}" ShortID="41730869" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{D6585960-4241-486D-9EAB-B2280DC7801E}" Global="false">
-											<ObjectRef Name="wood_hit" ID="{26185151-3728-41BF-B7D2-A95C318B46D6}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_axe_mailbox_hit" ID="{521FB6E0-5124-40E1-947E-11A27D257A18}">
-							<ChildrenList>
-								<Action Name="Play" ID="{38F85343-2DC6-4936-B04F-18B4A76C9DC8}" ShortID="61892230" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{13C5E7BB-7B32-4F81-8488-55BD4F788BC6}" Global="false">
-											<ObjectRef Name="mailbox_hit" ID="{CA6CFB42-B72E-453E-8AA6-9FF3E27A8FDE}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_axe_chariot_hit" ID="{7C8D4EE0-4269-4B73-A864-A362DCB35B7F}">
-							<ChildrenList>
-								<Action Name="Play" ID="{7AE34BE3-FA64-4D35-AA8C-433FF6000461}" ShortID="179738158" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{61B36175-224D-4F22-B914-9471F6910682}" Global="false">
-											<ObjectRef Name="chariot_hit" ID="{BACB567D-B93B-434A-A361-F1D800618254}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Marionnette_hit" ID="{B5763B44-D296-43F0-8162-3E2CF162C619}" ShortID="533372977">
-					<ChildrenList>
-						<Event Name="Play_Marionnette_hit_ceramique" ID="{AAD2A595-FB06-4AEB-9DD4-14EE58541332}">
-							<ChildrenList>
-								<Action Name="Play" ID="{802F6B24-EFE2-4C80-815E-B88711AF88AE}" ShortID="1027779351" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{B272A71C-AC44-4027-A5A4-606207F4473C}" Global="false">
-											<ObjectRef Name="Marionnette_hit_ceramique" ID="{12AE5BCE-61A0-4786-A5FE-6E2DB92C3FD7}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Marionnette_hit_metal" ID="{D32CE09D-DBC0-4205-AAE7-84B611515B33}">
-							<ChildrenList>
-								<Action Name="Play" ID="{298A0DFC-4310-41CA-B85F-50D9B3FEFA8D}" ShortID="994901189" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{E27C2578-F4A6-4F86-ABA5-F026952BCEB8}" Global="false">
-											<ObjectRef Name="Marionnette_hit_metal" ID="{CFC658D8-B67E-40F8-8583-0E4FDA885939}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Marionnette_casserole_hit" ID="{5E257313-C602-4E86-83DB-7E5538F329F6}">
-							<ChildrenList>
-								<Action Name="Play" ID="{80A2C98C-900A-4350-9BA1-AF19FEBE705C}" ShortID="745339811" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{6218DE5D-91FA-4A91-82B1-19A6DC37A0DA}" Global="false">
-											<ObjectRef Name="casserole_hit" ID="{88AC9044-4D67-48EF-9A06-76214E79813C}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Marionnette_hit_tissu" ID="{41D6528B-3DAE-4571-81FC-8EE5F24653E6}">
-							<ChildrenList>
-								<Action Name="Play" ID="{FD33B581-9FE2-4ACF-9298-3B5892B40617}" ShortID="763209939" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{0846CCC2-74C5-4FF6-B05D-0DEE333CD8C9}" Global="false">
-											<ObjectRef Name="Marionnette_hit_tissu" ID="{7E919226-7F6F-41EF-BE81-AE20F12A0265}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Marionnette_hit_bois" ID="{0B7FED79-66FE-42A5-8F89-CE8B3F6E32BA}">
-							<ChildrenList>
-								<Action Name="Play" ID="{F970F4B4-D6ED-4F48-8E3A-9EF65DA40173}" ShortID="552062974" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{BDA3B67B-B867-4F4D-AC2F-AF76F2524619}" Global="false">
-											<ObjectRef Name="Marionnette_hit_bois" ID="{91221722-337F-4411-A086-4A36A3E4EA8F}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Marionnette_Autohit" ID="{3E0B55C2-35C3-47AB-849C-019F91BA0606}">
-							<ChildrenList>
-								<Action Name="Play" ID="{61E803D2-10BE-4CA7-BEF3-634AE0B36279}" ShortID="776581497" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{65AF1521-EA3E-4964-97A8-AAC1F80545D3}" Global="false">
-											<ObjectRef Name="Marionnette_Autohit" ID="{F4E7159E-78C8-4637-8131-46FA075FBC34}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Marionnette_hit_tissu" ID="{256EF286-A596-4202-9CC7-D0F1115E3C0F}">
-							<ChildrenList>
-								<Action Name="Stop" ID="{C853698C-8282-4B6A-8E6C-2A5DCC6358C4}" ShortID="336287735" Type="Stop" Scope="One" Global="false">
-									<PropertyList>
-										<Property Name="FadeCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ElementList>
-										<Element ID="{A8B0E8FD-B949-4966-B36D-CB82EB360BA5}" Global="false">
-											<ObjectRef Name="Marionnette_hit_tissu" ID="{7E919226-7F6F-41EF-BE81-AE20F12A0265}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-										</Element>
-									</ElementList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
-=======
-				<Event Name="Stop_Fire" ID="{585AB50A-410B-499F-9258-E6BD2D773C9C}">
-					<ChildrenList>
-						<Action Name="Stop" ID="{786555BD-DE52-4D82-B79F-681778A7998D}" ShortID="1008586345" Type="Stop" Scope="One" Global="false">
+						<Action Name="Set Game Parameter" ID="{2D4DB7CC-E3C0-45B3-9852-C05D7635C001}" ShortID="427523600" Type="SetGameParameter" Scope="One" Global="false">
 							<PropertyList>
-								<Property Name="FadeCurve" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ElementList>
-								<Element ID="{8A50031A-656F-4E9B-931B-04E8CC206C72}" Global="false">
-									<ObjectRef Name="Fire" ID="{70BBA7E7-CDDC-4B7F-B6BE-29CE489F20D5}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								<Element ID="{006869CA-F78D-4574-B4A1-BD2832A0D01D}" Global="false">
+									<ObjectRef Name="PlayerSelectionPanning" ID="{CDBBB8B4-8902-49D3-8388-E041B179AB69}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
 								</Element>
 							</ElementList>
 						</Action>
 					</ChildrenList>
 				</Event>
->>>>>>> 2ccd23d98bfcaebf4cb6b602f39b33f803f0d3e2
+				<Event Name="Play_Marionnette_hit_casserole" ID="{8BC6523A-97FC-472E-9C2B-D2CEF886D0DE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{107EF0A8-8240-4AC6-A4A5-CE476466C06E}" ShortID="866303341" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A203D5EA-F14E-4AEB-9A3A-3F271C575123}" Global="false">
+									<ObjectRef Name="Marionnette_hit_casserole" ID="{AC7739DC-C1F4-48DC-A959-DCA5E427BA64}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

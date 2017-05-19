@@ -1,58 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{78CCDB07-73E8-483D-A11A-0AC58B0967A4}" SchemaVersion="75">
 	<Attenuations>
-		<WorkUnit Name="Default Work Unit" ID="{78CCDB07-73E8-483D-A11A-0AC58B0967A4}" PersistMode="Standalone">
-			<ChildrenList>
-				<Attenuation Name="FireAtten" ID="{02EDED37-E4F2-4BEF-9F3B-5DEAB0BE0585}" ShortID="74292738">
-					<CurveUsageInfoList>
-						<VolumeDryUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-								<Curve Name="VolumeDry" ID="{B079C326-D9D5-4654-92D1-24246588F4E8}">
-									<PropertyList>
-										<Property Name="Flags" Type="int32" Value="3"/>
-									</PropertyList>
-									<PointList>
-										<Point>
-											<XPos>0</XPos>
-											<YPos>0</YPos>
-											<Flags>5</Flags>
-											<SegmentShape>Exp1</SegmentShape>
-										</Point>
-										<Point>
-											<XPos>13.01587</XPos>
-											<YPos>-21.00704</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>100</XPos>
-											<YPos>-200</YPos>
-											<Flags>37</Flags>
-										</Point>
-									</PointList>
-								</Curve>
-							</CurveUsageInfo>
-						</VolumeDryUsage>
-						<VolumeWetGameUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-						</VolumeWetGameUsage>
-						<VolumeWetUserUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-						</VolumeWetUserUsage>
-						<LowPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-						</LowPassFilterUsage>
-						<HighPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-						</HighPassFilterUsage>
-						<SpreadUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-						</SpreadUsage>
-						<FocusUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-						</FocusUsage>
-					</CurveUsageInfoList>
-				</Attenuation>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{78CCDB07-73E8-483D-A11A-0AC58B0967A4}" PersistMode="Standalone"/>
 	</Attenuations>
 </WwiseDocument>

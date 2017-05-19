@@ -5,70 +5,8 @@
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ChildrenList>
-						<Bus Name="Music" ID="{430B7CB2-0AD6-428D-BC3C-C2D3D14B2AB5}">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{B2B3A70E-747F-4E1A-BD66-8F460179C655}" ShortID="946922159">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="Music_Option" ID="{88C6D976-523C-4485-A4C7-83E3C319B2EA}" WorkUnitID="{6B294029-BA5B-4614-8202-9F253BF7B613}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{97C3809B-00C1-4523-8C1B-4CB15CD458CA}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
-						</Bus>
-						<Bus Name="SFX" ID="{652E17D9-44B1-4E11-AF5A-C2C4848222AC}">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{C46E408B-89CF-43C7-82B1-BE1693AD6AA4}" ShortID="1047101017">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="SFX_Option" ID="{C41971D8-A7A5-43D3-8825-48EA78C0B35D}" WorkUnitID="{6B294029-BA5B-4614-8202-9F253BF7B613}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{87F258B4-03FF-4B4E-9CA0-1F1D268B5379}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
-						</Bus>
+						<Bus Name="Music" ID="{365C2E00-E3C7-43EC-8E4F-AD026A3CDF24}"/>
+						<Bus Name="SFX" ID="{8BFDB456-EFCF-4A98-BA87-E71F85D08FF4}"/>
 					</ChildrenList>
 				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
