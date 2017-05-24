@@ -284,9 +284,6 @@
 					</PositioningInfo>
 				</ActorMixer>
 				<ActorMixer Name="Marionnette_hit" ID="{86F5EECA-AFDE-4C2C-BD6F-73EF2EBD6845}" ShortID="188004790">
-					<PropertyList>
-						<Property Name="EnablePanner" Type="bool" Value="True"/>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
@@ -297,6 +294,69 @@
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Marionnette_hit_casserole" ID="{AC7739DC-C1F4-48DC-A959-DCA5E427BA64}" ShortID="528517442">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{EF9367E7-40FE-4317-AB95-FC5E598093BE}" ShortID="84153602">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4B90E144-7A3B-43E3-A61A-AA0D1F4CD9A0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-393</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{DE023A34-3F82-4B46-A989-C43A42142B51}" ShortID="947635738">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{40D6E747-8FDE-4E6F-8C0B-79F780161C37}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4.82308</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.49705</XPos>
+														<YPos>3.91378000000003</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>6.72844000000001</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
@@ -602,10 +662,71 @@
 										<Value>3</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{486B40F5-0ED1-4683-B19B-1ED1DF9B5ADE}" ShortID="369857535">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D255279D-361E-49BF-8931-DD05D4F46AEB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-527</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
 									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{F7D38CD5-8D97-4232-9169-3EF4C875A00D}" ShortID="254028768">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7D986366-0CDB-46C8-837A-FE2EC383F70B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-3.93576</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.49705</XPos>
+														<YPos>0.97995</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>3.79461</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -810,6 +931,69 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Marionnette_hit_ceramique" ID="{12AE5BCE-61A0-4786-A5FE-6E2DB92C3FD7}" ShortID="889558545">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{5D7B9A2B-1AD8-4A39-B2A6-EAE216E2B4CD}" ShortID="672231471">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{503B72EC-2F4D-4635-8032-D960B7D693DC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-113</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{59772928-7DA0-43A3-B85F-D2E09F3DC2AD}" ShortID="451414121">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{72D5EF29-E6BB-4E05-B9C5-C6F61F5DA48F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-2.97832</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.49705</XPos>
+														<YPos>0.81554</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>3.6302</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
@@ -1165,9 +1349,16 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Marionnette_hit_bois" ID="{91221722-337F-4411-A086-4A36A3E4EA8F}" ShortID="301327408">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
@@ -1182,11 +1373,78 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+									<RTPCList>
+										<RTPC Name="" ID="{A6CB3F3C-AF76-4F87-972B-5D5C27CBBA9F}" ShortID="65250354">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{33D9DDCF-4215-44C0-92FA-817BA6445ED3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-638</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-16</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{8FB71CBB-7B8C-4E4C-A301-171C177B70F1}" ShortID="275785231">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7DFF1743-852C-42F5-9E12-601A13D9BFE2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-6.6921</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.3737</XPos>
+														<YPos>-1.28507</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.49705</XPos>
+														<YPos>3.91378000000003</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>6.72844000000001</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -3685,6 +3943,17 @@
 						</SwitchContainer>
 						<RandomSequenceContainer Name="hit_bois_new" ID="{02B83B43-83E3-4C9A-8FAA-A584F3784EEA}" ShortID="257404235">
 							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePriority" Type="bool" Value="True"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -3697,11 +3966,78 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+									<RTPCList>
+										<RTPC Name="" ID="{B2981B02-EB9C-44F7-B841-2DEC9127B238}" ShortID="109300865">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7E27A3F3-2870-4455-9EB2-C1D8B3C8B043}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-172</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-8</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{AD4C11DE-7DD2-44D1-AAFE-A6375C5E06A6}" ShortID="436824378">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3743B752-26A5-47BA-B1D3-9269D758EB93}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-7.95541</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.3776</XPos>
+														<YPos>-3.31971</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.49705</XPos>
+														<YPos>0.97995</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>3.79461</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -3882,6 +4218,236 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="hit_bois_new-008" ID="{EE47D051-1B3D-4EEB-834D-97F9E5EE040D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Marionnette_hit_fauteuil" ID="{DD5C7EA3-8F8A-499E-A651-3974BEADDE64}" ShortID="805943558">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{4D2ED025-46F4-41B9-80BE-56C6183DE594}" ShortID="1065636396">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5D2174B9-024F-43F9-87E3-A8A053E0A7FA}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-409</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{25CF13D7-A637-4570-BF73-4343CFDD8AFC}" ShortID="201439257">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B4885389-2714-4B4F-B894-237B0E7E4EFB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-2.53647</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.49705</XPos>
+														<YPos>0.65418</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>3.46884</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SoftPropHit" ID="{BC1910C5-2EFB-4D47-9526-3705BDA2405D}" ShortID="1032838694" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SoftPropHit" ID="{3A63D2C1-B0D2-44A1-98C1-9F95273E74A5}" ShortID="435549984">
+											<Language>SFX</Language>
+											<AudioFile>SoftPropHit.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SoftPropHit" ID="{3A63D2C1-B0D2-44A1-98C1-9F95273E74A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SoftPropHit-001" ID="{BE1DDCB6-A27D-4D7A-9334-BB811E609A23}" ShortID="169131617" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SoftPropHit-001" ID="{3CC2747B-1DC6-408F-B887-D32A7A47DD3D}" ShortID="73139142">
+											<Language>SFX</Language>
+											<AudioFile>SoftPropHit-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SoftPropHit-001" ID="{3CC2747B-1DC6-408F-B887-D32A7A47DD3D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SoftPropHit-002" ID="{30D882B2-4D67-4C1A-B604-44B116ED8462}" ShortID="794460638" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SoftPropHit-002" ID="{9CC23BE3-EB4F-4331-9291-88E20C0F1D82}" ShortID="856168556">
+											<Language>SFX</Language>
+											<AudioFile>SoftPropHit-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SoftPropHit-002" ID="{9CC23BE3-EB4F-4331-9291-88E20C0F1D82}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SoftPropHit-003" ID="{3562741F-B0A4-4A77-A299-54D65DCC99E9}" ShortID="702050591" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SoftPropHit-003" ID="{0F5130CF-CA0B-4FE2-B40A-622E54305279}" ShortID="152089364">
+											<Language>SFX</Language>
+											<AudioFile>SoftPropHit-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SoftPropHit-003" ID="{0F5130CF-CA0B-4FE2-B40A-622E54305279}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SoftPropHit-004" ID="{0FEE3062-0517-4E2A-8815-426EC38C52FE}" ShortID="271159195" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SoftPropHit-004" ID="{72A5C495-8D9C-4BFC-BC16-754AC2E94EEE}" ShortID="22335405">
+											<Language>SFX</Language>
+											<AudioFile>SoftPropHit-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SoftPropHit-004" ID="{72A5C495-8D9C-4BFC-BC16-754AC2E94EEE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SoftPropHit-005" ID="{8AA035CB-2367-456A-B591-116680ACFECF}" ShortID="316650470" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SoftPropHit-005" ID="{4AEFF05D-8886-4C75-B803-862BAEA0D2A8}" ShortID="461425544">
+											<Language>SFX</Language>
+											<AudioFile>SoftPropHit-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SoftPropHit-005" ID="{4AEFF05D-8886-4C75-B803-862BAEA0D2A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SoftPropHit-006" ID="{FEDF85C8-5833-4BE1-A4D2-82C69B13B8F2}" ShortID="200076292" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SoftPropHit-006" ID="{8787D4F3-B26F-4E86-8258-547D09DB31FA}" ShortID="547590201">
+											<Language>SFX</Language>
+											<AudioFile>SoftPropHit-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SoftPropHit-006" ID="{8787D4F3-B26F-4E86-8258-547D09DB31FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SoftPropHit-007" ID="{E143966F-41BA-4F5C-A08F-E0CDCDA64F72}" ShortID="130546682" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SoftPropHit-007" ID="{E642B79D-D8B0-4A5B-8ACF-60430960B7F0}" ShortID="1025355572">
+											<Language>SFX</Language>
+											<AudioFile>SoftPropHit-007.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SoftPropHit-007" ID="{E642B79D-D8B0-4A5B-8ACF-60430960B7F0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

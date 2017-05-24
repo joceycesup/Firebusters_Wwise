@@ -174,6 +174,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Marionnette_hit_fauteuil" ID="{1C22F23C-5188-4012-90B7-F43A27A5821F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C21294C6-0CDE-4A0A-82EA-1AD77418F0C4}" ShortID="40213072" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0C766385-C8F6-4701-81DD-B9CF0D5F4FEA}" Global="false">
+									<ObjectRef Name="Marionnette_hit_fauteuil" ID="{DD5C7EA3-8F8A-499E-A651-3974BEADDE64}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
