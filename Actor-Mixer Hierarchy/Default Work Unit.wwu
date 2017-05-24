@@ -1183,6 +1183,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3678,6 +3683,209 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<RandomSequenceContainer Name="hit_bois_new" ID="{02B83B43-83E3-4C9A-8FAA-A584F3784EEA}" ShortID="257404235">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{861542A2-4594-4108-B932-A5267DAC80FC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="278"/>
+													<Property Name="Min" Type="Real64" Value="-152"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="hit_bois_new" ID="{5222478F-331D-45B1-ABA4-524F6A6FFA26}" ShortID="393970438" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_bois_new" ID="{DD59364F-F709-4633-9017-C7816C5FFD76}" ShortID="1062772391">
+											<Language>SFX</Language>
+											<AudioFile>hit_bois_new.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_bois_new" ID="{DD59364F-F709-4633-9017-C7816C5FFD76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_bois_new-001" ID="{D39E8737-8235-4460-85AB-53308CC6AC93}" ShortID="34372402" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_bois_new-001" ID="{F12B6709-D1E5-47C3-A84B-9980371C8318}" ShortID="442050776">
+											<Language>SFX</Language>
+											<AudioFile>hit_bois_new-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_bois_new-001" ID="{F12B6709-D1E5-47C3-A84B-9980371C8318}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_bois_new-002" ID="{97E127C0-36C5-4170-999E-E3D5B1ACFF45}" ShortID="851529803" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_bois_new-002" ID="{EE849269-357A-4520-A34D-50A9E4BA81D4}" ShortID="65292803">
+											<Language>SFX</Language>
+											<AudioFile>hit_bois_new-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_bois_new-002" ID="{EE849269-357A-4520-A34D-50A9E4BA81D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_bois_new-003" ID="{9E75B070-73EE-412F-8FF8-3F145158BAAC}" ShortID="722918797" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_bois_new-003" ID="{FA52F077-26EB-4EEB-9ED2-5CCAD45CC587}" ShortID="650436563">
+											<Language>SFX</Language>
+											<AudioFile>hit_bois_new-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_bois_new-003" ID="{FA52F077-26EB-4EEB-9ED2-5CCAD45CC587}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_bois_new-004" ID="{70E1EFA8-6413-4958-AEBA-D4E8D5E44690}" ShortID="118884756" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_bois_new-004" ID="{C9809B7F-7BCE-4EAF-B63A-5329362D7D88}" ShortID="78623638">
+											<Language>SFX</Language>
+											<AudioFile>hit_bois_new-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_bois_new-004" ID="{C9809B7F-7BCE-4EAF-B63A-5329362D7D88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_bois_new-005" ID="{A661EFBB-C1CB-4B23-9108-D77E540CF445}" ShortID="360185352" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_bois_new-005" ID="{CEFBD3B4-232B-4636-A4D7-17EB4E5572C6}" ShortID="427975239">
+											<Language>SFX</Language>
+											<AudioFile>hit_bois_new-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_bois_new-005" ID="{CEFBD3B4-232B-4636-A4D7-17EB4E5572C6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_bois_new-006" ID="{6C642F22-3825-46CA-BCDA-24EF20CE82E1}" ShortID="95199556" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_bois_new-006" ID="{6043216F-7276-4D48-9939-872C68BE6A69}" ShortID="301638733">
+											<Language>SFX</Language>
+											<AudioFile>hit_bois_new-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_bois_new-006" ID="{6043216F-7276-4D48-9939-872C68BE6A69}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_bois_new-007" ID="{B9C3820F-DF11-496A-B228-A90079EB542A}" ShortID="896691935" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_bois_new-007" ID="{321D7EE5-D99B-4B1F-A28B-C5DB86DDDF9C}" ShortID="93791492">
+											<Language>SFX</Language>
+											<AudioFile>hit_bois_new-007.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_bois_new-007" ID="{321D7EE5-D99B-4B1F-A28B-C5DB86DDDF9C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hit_bois_new-008" ID="{A3F070F9-8D0F-4893-ACA0-BA479312AE50}" ShortID="518619748" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hit_bois_new-008" ID="{EE47D051-1B3D-4EEB-834D-97F9E5EE040D}" ShortID="737472351">
+											<Language>SFX</Language>
+											<AudioFile>hit_bois_new-008.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="hit_bois_new-008" ID="{EE47D051-1B3D-4EEB-834D-97F9E5EE040D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{3FE25661-7751-4699-AF2C-AA59DAF6FCD0}">

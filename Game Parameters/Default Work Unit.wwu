@@ -26,6 +26,7 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

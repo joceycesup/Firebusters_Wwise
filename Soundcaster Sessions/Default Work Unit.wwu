@@ -42,7 +42,7 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Marionnette_hit_bois" ID="{0B7FED79-66FE-42A5-8F89-CE8B3F6E32BA}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<ObjectRef Name="Play_Marionnette_hit_bois" ID="{23C2921F-B8FC-4771-9311-7C350A98C84E}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
@@ -93,11 +93,15 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Velocite" ID="{71432DE0-FBFB-49C3-BC34-D1E9DE6AB83B}"/>
-							<Value>0.55</Value>
+							<Value>0.88</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PlayerSelectionPanning" ID="{CDBBB8B4-8902-49D3-8388-E041B179AB69}"/>
 							<Value>8.56077030609528E-316</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}"/>
+							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
@@ -105,7 +109,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Fire_Count" ID="{1EA6E065-1FA0-4CA7-B25D-D7E8FA2F6D7C}"/>
-							<Value>9.77973568281938</Value>
+							<Value>4.2</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>

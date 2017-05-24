@@ -76,17 +76,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Marionnette_hit_bois" ID="{0B7FED79-66FE-42A5-8F89-CE8B3F6E32BA}">
-					<ChildrenList>
-						<Action Name="Play" ID="{F970F4B4-D6ED-4F48-8E3A-9EF65DA40173}" ShortID="552062974" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{BDA3B67B-B867-4F4D-AC2F-AF76F2524619}" Global="false">
-									<ObjectRef Name="Marionnette_hit_bois" ID="{91221722-337F-4411-A086-4A36A3E4EA8F}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Marionnette_hit_metal" ID="{D32CE09D-DBC0-4205-AAE7-84B611515B33}">
 					<ChildrenList>
 						<Action Name="Play" ID="{298A0DFC-4310-41CA-B85F-50D9B3FEFA8D}" ShortID="994901189" Type="Play" Scope="One" Global="false">
@@ -162,6 +151,24 @@
 							<ElementList>
 								<Element ID="{A203D5EA-F14E-4AEB-9A3A-3F271C575123}" Global="false">
 									<ObjectRef Name="Marionnette_hit_casserole" ID="{AC7739DC-C1F4-48DC-A959-DCA5E427BA64}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Marionnette_hit_bois" ID="{23C2921F-B8FC-4771-9311-7C350A98C84E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D8683247-698D-4E0A-BDF1-A48F46EC03EC}" ShortID="897344885" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BA2DB0EE-5165-4A3F-96DE-E535525251A7}" Global="false">
+									<ObjectRef Name="hit_bois_new" ID="{02B83B43-83E3-4C9A-8FAA-A584F3784EEA}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{DCBCC6DD-5EA6-402F-A0D7-5244A0D820C0}" ShortID="799476844" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{849A03E0-FAB6-4C8A-B83C-C458FC305C3D}" Global="false">
+									<ObjectRef Name="Marionnette_hit_bois" ID="{91221722-337F-4411-A086-4A36A3E4EA8F}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
 								</Element>
 							</ElementList>
 						</Action>
