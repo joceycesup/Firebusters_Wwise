@@ -1023,6 +1023,85 @@
 										</MusicTrackSequence>
 									</SequenceList>
 								</MusicTrack>
+								<MusicTrack Name="Contrebasse_main_new" ID="{C5C36CE1-106A-4D05-9B3F-D8F5BBD123DB}" ShortID="205375276">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{3D76FD72-249C-4AD1-BBA8-67F50E8C8536}" ShortID="265052961">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Fire_Count" ID="{1EA6E065-1FA0-4CA7-B25D-D7E8FA2F6D7C}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{E96FED88-5543-4510-903E-16799B7FD711}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-3</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.99855</XPos>
+																<YPos>-3</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>2.99566</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Contrebasse_main_new" ID="{B6BC71A6-428D-4DE1-A3CF-FB7D04E48436}" ShortID="684238986">
+											<Language>SFX</Language>
+											<AudioFile>Contrebasse_main_new.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C35F2FB4-B9A3-4D1A-BDCC-7B26DCF818E7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{8136FE85-EC48-42CB-8BC0-1B08355C681C}">
+											<ClipList>
+												<MusicClip Name="Contrebasse_main_new" ID="{172BC7DC-7E35-4A0D-814A-E2FC1C8F5386}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="106149.666666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="PlayAt" Type="Real64" Value="333.361465463552"/>
+													</PropertyList>
+													<AudioSourceRef Name="Contrebasse_main_new" ID="{B6BC71A6-428D-4DE1-A3CF-FB7D04E48436}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
 							</ChildrenList>
 							<CueList>
 								<MusicCue Name="Entry Cue" ID="{A2C231C4-76ED-4104-8B86-34BDC977BC25}"/>

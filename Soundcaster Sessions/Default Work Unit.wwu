@@ -18,6 +18,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Squeak" ID="{A4BF26B7-E03F-48D6-BE9C-94A2339C37A2}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Start_Extincteur" ID="{E9E5F219-EA62-468B-AA3F-77E7AF3D43DE}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -104,6 +108,10 @@
 							<Value>8.56077030609528E-316</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Lustre_Angle" ID="{AA5AD12C-A9FF-4B2A-BF55-9BB41132A2F9}"/>
+							<Value>0.41</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}"/>
 							<Value>0</Value>
 						</RTPCValue>
@@ -113,7 +121,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Fire_Count" ID="{1EA6E065-1FA0-4CA7-B25D-D7E8FA2F6D7C}"/>
-							<Value>4.2</Value>
+							<Value>3.6</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>

@@ -5075,6 +5075,223 @@
 						</BlendTrack>
 					</BlendTrackList>
 				</BlendContainer>
+				<ActorMixer Name="Squeak" ID="{C64186BD-7A59-4C6A-8A5E-3C9972BC53C9}" ShortID="363440338">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="SqueakLayer1" ID="{63C8B436-DC10-4E97-9DAE-08D1241F0DD7}" ShortID="625340506">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{986159AA-FFEE-4660-8514-6E44CEA29AEC}" ShortID="1047248203">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Lustre_Angle" ID="{AA5AD12C-A9FF-4B2A-BF55-9BB41132A2F9}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7F59ACED-0734-43D0-AF56-98DE60F8BA52}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.1079</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.5</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.85677</XPos>
+														<YPos>-9</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.89323</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="squeakLayer1_1" ID="{DD3A5363-4C40-4E79-BC1E-3579FAD4AD3C}" ShortID="524910954" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="squeakLayer1_1" ID="{A1975E7C-09F3-4DDF-9FA1-1AA20C4EE971}" ShortID="66410561">
+											<Language>SFX</Language>
+											<AudioFile>squeakLayer1_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="squeakLayer1_1" ID="{A1975E7C-09F3-4DDF-9FA1-1AA20C4EE971}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="squeakLayer1_2" ID="{A048BF26-D174-4DE9-B428-FF2ED15DA1F5}" ShortID="135099871" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="squeakLayer1_1-001" ID="{E34C6341-0A10-400E-8035-B352D8C9DC6F}" ShortID="162622837">
+											<Language>SFX</Language>
+											<AudioFile>squeakLayer1_1-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="squeakLayer1_1-001" ID="{E34C6341-0A10-400E-8035-B352D8C9DC6F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="squeakLayer1_1" ID="{DD3A5363-4C40-4E79-BC1E-3579FAD4AD3C}"/>
+								<ItemRef Name="squeakLayer1_2" ID="{A048BF26-D174-4DE9-B428-FF2ED15DA1F5}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SqueakLayer2" ID="{1BF5EF28-EEA3-4C07-9570-59A7E1A2263E}" ShortID="288258708">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{D7761AC3-A08B-4F63-9630-74B8EE0AA4B4}" ShortID="6915002">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Lustre_Angle" ID="{AA5AD12C-A9FF-4B2A-BF55-9BB41132A2F9}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A361077D-0CCF-4A81-9EE5-5B0CAFE4084F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.5</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.70052</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="squeakLayer2_1" ID="{C404D069-2B76-48DE-98C8-60A12AC6C783}" ShortID="784375459" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="squeakLayer2_1" ID="{556D345C-F8B7-42CB-8994-9E9B21A84A2E}" ShortID="705387470">
+											<Language>SFX</Language>
+											<AudioFile>squeakLayer2_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="squeakLayer2_1" ID="{556D345C-F8B7-42CB-8994-9E9B21A84A2E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="squeakLayer2_2" ID="{669AAAB5-3D93-43E7-A8D3-0E01EFE792D2}" ShortID="292138315" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="squeakLayer2_2" ID="{64A98AD9-C223-49AF-BEC5-9297D06828A5}" ShortID="805794784">
+											<Language>SFX</Language>
+											<AudioFile>squeakLayer2_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="squeakLayer2_2" ID="{64A98AD9-C223-49AF-BEC5-9297D06828A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="squeakLayer2_1" ID="{C404D069-2B76-48DE-98C8-60A12AC6C783}"/>
+								<ItemRef Name="squeakLayer2_2" ID="{669AAAB5-3D93-43E7-A8D3-0E01EFE792D2}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

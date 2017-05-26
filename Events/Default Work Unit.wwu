@@ -185,6 +185,44 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Squeak" ID="{A4BF26B7-E03F-48D6-BE9C-94A2339C37A2}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{E68535C4-8563-4F8F-8186-6A5D2EF6AE34}" ShortID="422386269" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{91B7556D-B81D-4E5C-9858-9434C326D45D}" Global="false">
+									<ObjectRef Name="SqueakLayer1" ID="{63C8B436-DC10-4E97-9DAE-08D1241F0DD7}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{D6B1C359-7B1F-4761-A264-F0B389E7968A}" ShortID="189262236" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{6D3273C5-66EC-4ABD-9310-64E30B114004}" Global="false">
+									<ObjectRef Name="SqueakLayer2" ID="{1BF5EF28-EEA3-4C07-9570-59A7E1A2263E}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{99EB1A3A-6C94-45D0-A99B-33B72CDED0D6}" ShortID="608216923" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{23CDA3DA-C80B-45E3-BE84-A65492EBBA7D}" Global="false">
+									<ObjectRef Name="SqueakLayer2" ID="{1BF5EF28-EEA3-4C07-9570-59A7E1A2263E}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{BB7FA342-821A-4560-8CD8-5DE4E83D5EDC}" ShortID="72414530" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{25F87274-B4EE-47F4-A3EC-85F2FB5774E2}" Global="false">
+									<ObjectRef Name="SqueakLayer1" ID="{63C8B436-DC10-4E97-9DAE-08D1241F0DD7}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
