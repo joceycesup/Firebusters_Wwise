@@ -4712,6 +4712,182 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Vaisselle_break" ID="{17D66F19-1CF3-43FE-BCF3-2F1E4C92A3A2}" ShortID="790508743">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="vaisselle_break" ID="{2EC9BE63-27DC-46EE-869B-8F7FAAA3E332}" ShortID="658992170" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="vaisselle_break" ID="{3AA0A223-4006-4D8B-8FF0-98153692758D}" ShortID="264457318">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.212195294117647"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>vaisselle_break.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="vaisselle_break" ID="{3AA0A223-4006-4D8B-8FF0-98153692758D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="vaisselle_break-001" ID="{8A06EF61-B99B-4737-842C-8AC40089EBB5}" ShortID="25108603" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="vaisselle_break-001" ID="{1F2E1284-48ED-47E1-9EB6-09E0EF67D2C7}" ShortID="561968523">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.474020130718954"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>vaisselle_break-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="vaisselle_break-001" ID="{1F2E1284-48ED-47E1-9EB6-09E0EF67D2C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="vaisselle_break-002" ID="{501585F6-94E0-46E7-9A41-435D600CEE5D}" ShortID="282926014" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="vaisselle_break-002" ID="{66E085F8-9F2C-4F3F-A88D-504969984B55}" ShortID="278081940">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.136646993464052"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.21409379084967"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>vaisselle_break-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="vaisselle_break-002" ID="{66E085F8-9F2C-4F3F-A88D-504969984B55}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="vaisselle_break-003" ID="{4D6DEB74-5ECB-4078-BB97-BCDC44D61367}" ShortID="40346592" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="vaisselle_break-003" ID="{EADD781E-E603-4D58-9052-72C6EEB28F99}" ShortID="981789779">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="7.61174509803921E-02"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>vaisselle_break-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="vaisselle_break-003" ID="{EADD781E-E603-4D58-9052-72C6EEB28F99}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="vaisselle_break-004" ID="{C802F808-EA55-4DE3-8F6F-3B60A17FC181}" ShortID="359621123" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="vaisselle_break-004" ID="{655E99ED-4114-4FB5-8A6C-3D3E571E8D44}" ShortID="589308001">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="7.00021078431372E-02"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>vaisselle_break-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="vaisselle_break-004" ID="{655E99ED-4114-4FB5-8A6C-3D3E571E8D44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="vaisselle_break-005" ID="{DD93A93E-3E67-481B-A15A-ABFDFB4AF08A}" ShortID="152410849" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="vaisselle_break-005" ID="{2ECFED03-213E-466B-B9C2-21D3025F711E}" ShortID="502011301">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="8.86013071895425E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.63128431372549"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>vaisselle_break-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="vaisselle_break-005" ID="{2ECFED03-213E-466B-B9C2-21D3025F711E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="vaisselle_break-006" ID="{F3C99E79-335D-4218-8967-149F4DE699E2}" ShortID="1057653822" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="vaisselle_break-006" ID="{C68AE386-5E2D-4C24-9A1D-6B2D6B0A1213}" ShortID="552552960">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.461772156862745"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.13322656862745"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>vaisselle_break-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="vaisselle_break-006" ID="{C68AE386-5E2D-4C24-9A1D-6B2D6B0A1213}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{3FE25661-7751-4699-AF2C-AA59DAF6FCD0}">

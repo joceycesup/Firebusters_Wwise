@@ -234,6 +234,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Vaisselle_break" ID="{409FC3C4-D0DA-4CBD-BE03-C4D60093F33C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{462B7037-036A-49BC-8E89-47708C77B9C5}" ShortID="587642904" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9D20B45D-ADF7-4BEA-A6F8-8359D960B132}" Global="false">
+									<ObjectRef Name="Vaisselle_break" ID="{17D66F19-1CF3-43FE-BCF3-2F1E4C92A3A2}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
