@@ -223,6 +223,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Marionnette_hit_chandelier" ID="{FDABEAB1-660E-4B42-889A-FAC2AC30E07D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{940046DE-2B26-4FA1-A6EA-FE663FBC27ED}" ShortID="1060898452" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7DDC9E06-13FF-4A35-AAD1-F0FB0FEBE51D}" Global="false">
+									<ObjectRef Name="Marionnette_hit_chandelier" ID="{193E354A-BC92-462B-B9BC-52CBCE4A95A7}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

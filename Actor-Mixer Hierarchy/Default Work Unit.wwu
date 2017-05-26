@@ -4224,6 +4224,12 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Marionnette_hit_fauteuil" ID="{DD5C7EA3-8F8A-499E-A651-3974BEADDE64}" ShortID="805943558">
 							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<RTPCList>
 										<RTPC Name="" ID="{4D2ED025-46F4-41B9-80BE-56C6183DE594}" ShortID="1065636396">
@@ -4251,6 +4257,11 @@
 											</Curve>
 										</RTPC>
 									</RTPCList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -4448,6 +4459,255 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="SoftPropHit-007" ID="{E642B79D-D8B0-4A5B-8ACF-60430960B7F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Marionnette_hit_chandelier" ID="{193E354A-BC92-462B-B9BC-52CBCE4A95A7}" ShortID="412119101">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{96579CA9-EC48-4B8B-8B91-2A800957D6DC}" ShortID="550799827">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{62979949-33A5-411C-ADBE-B985887B587B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-113</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{154A5336-58CB-4DB0-B3C5-2F566DA589A1}" ShortID="1054173113">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{186B1E68-590B-4965-8484-139D9DFCD916}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-2.97832</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.49705</XPos>
+														<YPos>0.815540000000027</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>3.6302</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="chandelier_hit" ID="{34412738-9935-4974-90C1-8D837758C0DB}" ShortID="832985810" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="chandelier_hit" ID="{C4FCE6FB-32B2-4221-800E-60B6149ADFE4}" ShortID="410149846">
+											<Language>SFX</Language>
+											<AudioFile>chandelier_hit.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="chandelier_hit" ID="{C4FCE6FB-32B2-4221-800E-60B6149ADFE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="chandelier_hit-001" ID="{49A23C4A-A460-40FC-B723-60E35A9B98D9}" ShortID="19129247" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="chandelier_hit-001" ID="{4C6C1220-88C0-4174-A41B-69AD3BA079CA}" ShortID="929187669">
+											<Language>SFX</Language>
+											<AudioFile>chandelier_hit-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="chandelier_hit-001" ID="{4C6C1220-88C0-4174-A41B-69AD3BA079CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="chandelier_hit-002" ID="{332FAB11-A2CE-403D-9507-FB95B52B981B}" ShortID="901762229" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="chandelier_hit-002" ID="{A2A1E096-0048-49B6-8C74-DFCF2A8A3B94}" ShortID="281357682">
+											<Language>SFX</Language>
+											<AudioFile>chandelier_hit-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="chandelier_hit-002" ID="{A2A1E096-0048-49B6-8C74-DFCF2A8A3B94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="chandelier_hit-003" ID="{7D903523-BAA0-42EE-98E7-ED95E73698B7}" ShortID="848319493" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="chandelier_hit-003" ID="{6F0B2DCF-324F-40E9-8A2D-FD29769A0335}" ShortID="318704425">
+											<Language>SFX</Language>
+											<AudioFile>chandelier_hit-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="chandelier_hit-003" ID="{6F0B2DCF-324F-40E9-8A2D-FD29769A0335}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="chandelier_hit-004" ID="{E6F0C745-64D4-4B48-B624-CC44B196DC7D}" ShortID="264704890" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="chandelier_hit-004" ID="{A9CD6E47-7CC2-48DE-8860-423403A5A24D}" ShortID="1013324823">
+											<Language>SFX</Language>
+											<AudioFile>chandelier_hit-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="chandelier_hit-004" ID="{A9CD6E47-7CC2-48DE-8860-423403A5A24D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="chandelier_hit-005" ID="{B29144BD-784B-486F-943B-E9EFD394756D}" ShortID="266635857" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="chandelier_hit-005" ID="{B6509285-53F0-485D-B7A1-45D93F24E4D7}" ShortID="578171731">
+											<Language>SFX</Language>
+											<AudioFile>chandelier_hit-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="chandelier_hit-005" ID="{B6509285-53F0-485D-B7A1-45D93F24E4D7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="chandelier_hit-006" ID="{758D0487-48D8-4B6A-BB25-CC48D63D2E62}" ShortID="357199757" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="chandelier_hit-006" ID="{B93B6317-EC5E-4211-84F4-E146A0C76FCD}" ShortID="848963572">
+											<Language>SFX</Language>
+											<AudioFile>chandelier_hit-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="chandelier_hit-006" ID="{B93B6317-EC5E-4211-84F4-E146A0C76FCD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="chandelier_hit-007" ID="{5FE03658-3397-4792-867C-C63A5EACEEA1}" ShortID="395713601" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="chandelier_hit-007" ID="{5FEA739A-7235-4888-8E35-38168190EEAB}" ShortID="585955490">
+											<Language>SFX</Language>
+											<AudioFile>chandelier_hit-007.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="chandelier_hit-007" ID="{5FEA739A-7235-4888-8E35-38168190EEAB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="chandelier_hit-008" ID="{A77BCDA6-C366-44D3-946F-576867435888}" ShortID="717425043" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="chandelier_hit-008" ID="{85C6EECF-78DA-445A-8473-91145F814B93}" ShortID="684293718">
+											<Language>SFX</Language>
+											<AudioFile>chandelier_hit-008.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="chandelier_hit-008" ID="{85C6EECF-78DA-445A-8473-91145F814B93}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

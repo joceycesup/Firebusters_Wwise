@@ -69,6 +69,10 @@
 							<ObjectRef Name="Play_Marionnette_hit_fauteuil" ID="{1C22F23C-5188-4012-90B7-F43A27A5821F}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="4" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Marionnette_hit_chandelier" ID="{FDABEAB1-660E-4B42-889A-FAC2AC30E07D}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="4" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
