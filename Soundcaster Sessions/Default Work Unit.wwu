@@ -34,6 +34,10 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_DoorGrab" ID="{553307EE-C236-4228-82DA-CE42690EBE40}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Stop_Extincteur" ID="{37E40682-1839-403F-8772-27900678C5B0}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -44,6 +48,10 @@
 						<Module>
 							<ObjectRef Name="Play_Fire" ID="{B03666E3-ED32-477A-A126-DFD1D1E3A594}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Cat" ID="{312B5F5A-EA17-4847-9B98-921AC9D56A03}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Marionnette_hit_bois" ID="{23C2921F-B8FC-4771-9311-7C350A98C84E}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
@@ -82,6 +90,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
 							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Cattenuation" ID="{D0779E87-4B92-43EF-A6EB-E0FE4360A41A}"/>
+							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
@@ -129,7 +141,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Fire_Count" ID="{1EA6E065-1FA0-4CA7-B25D-D7E8FA2F6D7C}"/>
-							<Value>4.6</Value>
+							<Value>2</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>

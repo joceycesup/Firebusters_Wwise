@@ -38,6 +38,7 @@
 						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Cattenuation" ID="{D0779E87-4B92-43EF-A6EB-E0FE4360A41A}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

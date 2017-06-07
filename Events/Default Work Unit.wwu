@@ -245,6 +245,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Cat" ID="{312B5F5A-EA17-4847-9B98-921AC9D56A03}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BBEBC09E-A61C-47AE-A9EE-D1DA33640AE4}" ShortID="1057827747" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{255FEBD4-F84B-46D3-96B0-03A53D7D2C01}" Global="false">
+									<ObjectRef Name="Cat" ID="{A2B02987-4749-43C4-A740-FAE7D90E8BC7}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorGrab" ID="{553307EE-C236-4228-82DA-CE42690EBE40}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7F6501F3-460F-4AE1-899D-2F93C6E4F323}" ShortID="993160093" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AB7FC32D-EF2C-48FB-BEAF-77218962364E}" Global="false">
+									<ObjectRef Name="DoorGrab" ID="{690DB716-8170-4CDD-81C7-2D42D857DEE0}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
