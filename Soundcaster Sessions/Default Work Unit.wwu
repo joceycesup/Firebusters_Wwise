@@ -133,7 +133,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Velocite_Props" ID="{1721EDB7-12B5-4BE2-A54D-BCE6BE471A99}"/>
-							<Value>0</Value>
+							<Value>0.167601683029453</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
@@ -141,7 +141,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Fire_Count" ID="{1EA6E065-1FA0-4CA7-B25D-D7E8FA2F6D7C}"/>
-							<Value>2</Value>
+							<Value>2.3</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>

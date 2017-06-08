@@ -284,6 +284,13 @@
 					</PositioningInfo>
 				</ActorMixer>
 				<ActorMixer Name="Marionnette_hit" ID="{86F5EECA-AFDE-4C2C-BD6F-73EF2EBD6845}" ShortID="188004790">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
@@ -696,6 +703,9 @@
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{F7D38CD5-8D97-4232-9169-3EF4C875A00D}" ShortID="254028768">
 											<ReferenceList>
@@ -932,6 +942,13 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Marionnette_hit_ceramique" ID="{12AE5BCE-61A0-4786-A5FE-6E2DB92C3FD7}" ShortID="889558545">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<RTPCList>
 										<RTPC Name="" ID="{5D7B9A2B-1AD8-4A39-B2A6-EAE216E2B4CD}" ShortID="672231471">
@@ -960,7 +977,15 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{59772928-7DA0-43A3-B85F-D2E09F3DC2AD}" ShortID="451414121">
 											<ReferenceList>
@@ -985,7 +1010,7 @@
 													</Point>
 													<Point>
 														<XPos>1</XPos>
-														<YPos>3.6302</YPos>
+														<YPos>2.12816</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -1175,6 +1200,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="ceramique_hit-009" ID="{952219EA-FD26-4712-9488-3D17A6B23B95}" ShortID="421571828" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
@@ -1433,12 +1465,12 @@
 													</Point>
 													<Point>
 														<XPos>0.49705</XPos>
-														<YPos>3.91378000000003</YPos>
+														<YPos>-0.23859</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>1</XPos>
-														<YPos>6.72844000000001</YPos>
+														<YPos>2.57607</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -1692,13 +1724,18 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
+														<XPos>0.35484</XPos>
+														<YPos>-0.42256</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
 														<XPos>0.49705</XPos>
-														<YPos>3.91378</YPos>
+														<YPos>0.30627</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>1</XPos>
-														<YPos>6.72844</YPos>
+														<YPos>3.12093</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -4931,13 +4968,18 @@
 								<Value>4</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{160874EB-5419-4625-A360-44E830FC3486}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
+							<ObjectRef Name="SFX" ID="{8BFDB456-EFCF-4A98-BA87-E71F85D08FF4}" WorkUnitID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
