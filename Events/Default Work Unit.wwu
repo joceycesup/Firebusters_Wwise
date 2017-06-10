@@ -318,9 +318,9 @@
 								</Element>
 							</ElementList>
 						</Action>
-						<Action Name="Stop" ID="{FD548A2A-11DF-472B-843E-4A3CB25B6766}" ShortID="419050357" Type="Stop" Scope="One" Global="false">
+						<Action Name="Stop" ID="{FD548A2A-11DF-472B-843E-4A3CB25B6766}" ShortID="419050357" Type="Stop" Scope="One" Global="true">
 							<ElementList>
-								<Element ID="{50A3E25A-9FC2-4041-B30D-D2E257AEA11A}" Global="false">
+								<Element ID="{50A3E25A-9FC2-4041-B30D-D2E257AEA11A}" Global="true">
 									<ObjectRef Name="Fire blend" ID="{6C9F2F2B-BD2E-4A64-AA9A-68AE4748CB0E}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
 								</Element>
 							</ElementList>
