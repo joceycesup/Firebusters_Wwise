@@ -18,6 +18,8 @@ namespace AK
         static const AkUniqueID PLAY_AXE_CHARIOT_HIT = 4273581253U;
         static const AkUniqueID PLAY_AXE_MAILBOX_HIT = 3699785949U;
         static const AkUniqueID PLAY_AXE_WOOD_HIT = 2979634928U;
+        static const AkUniqueID PLAY_CAT = 2690797150U;
+        static const AkUniqueID PLAY_DOORGRAB = 757425688U;
         static const AkUniqueID PLAY_FIRE = 3015324718U;
         static const AkUniqueID PLAY_MARIONNETTE_AUTOHIT = 35712357U;
         static const AkUniqueID PLAY_MARIONNETTE_HIT_BOIS = 2997904568U;
@@ -27,6 +29,7 @@ namespace AK
         static const AkUniqueID PLAY_MARIONNETTE_HIT_FAUTEUIL = 1716381292U;
         static const AkUniqueID PLAY_MARIONNETTE_HIT_METAL = 339153334U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_MUSICMENU = 3221870102U;
         static const AkUniqueID PLAY_SQUEAK = 1357217968U;
         static const AkUniqueID PLAY_VAISSELLE_BREAK = 3256339846U;
         static const AkUniqueID START_EXTINCTEUR = 278157641U;
@@ -51,6 +54,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID CATTENUATION = 2612971436U;
         static const AkUniqueID FIRE_COUNT = 892026609U;
         static const AkUniqueID LUSTRE_ANGLE = 337608746U;
         static const AkUniqueID PLAYERSELECTIONPANNING = 1782474839U;

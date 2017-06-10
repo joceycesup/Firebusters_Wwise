@@ -5797,10 +5797,9 @@
 							</ModifierList>
 						</Property>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>12</Value>
+								<Value>8</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{0B64D644-2C98-43B0-B916-ECA334B53A22}" ShortID="319134898">
@@ -6004,6 +6003,9 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{B2C16B10-4A63-4512-8FEC-534BFEC181E7}"/>
+					</PositioningInfo>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="DoorGrab" ID="{690DB716-8170-4CDD-81C7-2D42D857DEE0}" ShortID="229818806">
 					<PropertyList>
