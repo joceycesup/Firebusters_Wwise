@@ -100,6 +100,13 @@
 				</Event>
 				<Event Name="Play_Music" ID="{8F620E46-8ECF-4993-B2FA-48724BE9F2A9}">
 					<ChildrenList>
+						<Action Name="Stop" ID="{61BC8B64-044A-4A7D-B063-BF7691C177A7}" ShortID="225416880" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{3EBFD0BB-B7EE-4C37-BB72-D968B9A889EA}" Global="true">
+									<ObjectRef Name="InGameMusic2" ID="{8266B9A5-3F50-4703-A400-9BF6C9458E91}" WorkUnitID="{EEC8F32B-BF0B-4B08-A1B0-20079F274239}"/>
+								</Element>
+							</ElementList>
+						</Action>
 						<Action Name="Play" ID="{DAA82890-CFC1-4233-B0F0-998A77CA81E9}" ShortID="893995999" Type="Play" Scope="One" Global="false">
 							<PropertyList>
 								<Property Name="Delay" Type="Real64" Value="2"/>
@@ -111,13 +118,13 @@
 								</Element>
 							</ElementList>
 						</Action>
-						<Action Name="Stop" ID="{5B2AE358-16FE-4B43-B919-B33B658C29E0}" ShortID="207611285" Type="Stop" Scope="One" Global="false">
+						<Action Name="Stop" ID="{5B2AE358-16FE-4B43-B919-B33B658C29E0}" ShortID="207611285" Type="Stop" Scope="One" Global="true">
 							<PropertyList>
 								<Property Name="FadeCurve" Type="int16" Value="1"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ElementList>
-								<Element ID="{9D308D77-E013-452E-9AF5-C85E4E031F2E}" Global="false">
+								<Element ID="{9D308D77-E013-452E-9AF5-C85E4E031F2E}" Global="true">
 									<ObjectRef Name="MusicMenu" ID="{D10EB9FA-861B-4D3B-B057-6002FFE367AE}" WorkUnitID="{EEC8F32B-BF0B-4B08-A1B0-20079F274239}"/>
 								</Element>
 							</ElementList>
@@ -284,6 +291,13 @@
 				</Event>
 				<Event Name="Play_MusicMenu" ID="{F9A867CE-8245-4519-8023-DA0F83EDB86A}">
 					<ChildrenList>
+						<Action Name="Stop" ID="{7BFA5824-CABA-4669-90F4-8DA86DFD0A45}" ShortID="1011791354" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{156C27F0-2E58-4207-A9AD-C251EDD98EA7}" Global="true">
+									<ObjectRef Name="MusicMenu" ID="{D10EB9FA-861B-4D3B-B057-6002FFE367AE}" WorkUnitID="{EEC8F32B-BF0B-4B08-A1B0-20079F274239}"/>
+								</Element>
+							</ElementList>
+						</Action>
 						<Action Name="Play" ID="{96779E5F-F960-404F-A214-843DC0CFD307}" ShortID="894092250" Type="Play" Scope="One" Global="false">
 							<PropertyList>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
@@ -294,13 +308,20 @@
 								</Element>
 							</ElementList>
 						</Action>
-						<Action Name="Stop" ID="{8774618D-90C2-48FE-B021-29AA9DD4421F}" ShortID="99166400" Type="Stop" Scope="One" Global="false">
+						<Action Name="Stop" ID="{8774618D-90C2-48FE-B021-29AA9DD4421F}" ShortID="99166400" Type="Stop" Scope="One" Global="true">
 							<PropertyList>
 								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
 							</PropertyList>
 							<ElementList>
-								<Element ID="{6ED04E8C-0049-42DC-833F-F10B7AA799AE}" Global="false">
+								<Element ID="{6ED04E8C-0049-42DC-833F-F10B7AA799AE}" Global="true">
 									<ObjectRef Name="InGameMusic2" ID="{8266B9A5-3F50-4703-A400-9BF6C9458E91}" WorkUnitID="{EEC8F32B-BF0B-4B08-A1B0-20079F274239}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{FD548A2A-11DF-472B-843E-4A3CB25B6766}" ShortID="419050357" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{50A3E25A-9FC2-4041-B30D-D2E257AEA11A}" Global="false">
+									<ObjectRef Name="Fire blend" ID="{6C9F2F2B-BD2E-4A64-AA9A-68AE4748CB0E}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
 								</Element>
 							</ElementList>
 						</Action>
