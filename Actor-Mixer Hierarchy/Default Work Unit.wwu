@@ -5783,6 +5783,7 @@
 							</ValueList>
 						</Property>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
 							<ModifierList>
@@ -5790,7 +5791,7 @@
 									<Modifier Name="" ID="{A025068D-2C7F-41E4-B655-3FB4E3964DE0}">
 										<PropertyList>
 											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="10"/>
+											<Property Name="Max" Type="Real64" Value="4"/>
 										</PropertyList>
 									</Modifier>
 								</ModifierInfo>
@@ -5815,17 +5816,42 @@
 										<PointList>
 											<Point>
 												<XPos>0</XPos>
-												<YPos>0.15194</YPos>
+												<YPos>-0.06816</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>30.01403</XPos>
-												<YPos>-9.79716</YPos>
+												<XPos>1.82328</XPos>
+												<YPos>-1.14466</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.48808</XPos>
+												<YPos>-7.12598</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5.7805</XPos>
+												<YPos>-17.17934</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9.95792</XPos>
+												<YPos>-17.17934</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>14.446</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30.15428</XPos>
+												<YPos>-200</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
 												<XPos>100</XPos>
-												<YPos>-21.2391</YPos>
+												<YPos>-200</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
@@ -6022,7 +6048,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>4</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
